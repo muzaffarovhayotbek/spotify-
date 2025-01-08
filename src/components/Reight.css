@@ -1,0 +1,44 @@
+.right-header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.right-header h2 {
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 24px;
+  color: #cccccc;
+}
+.reight-main {
+  padding-top: 21px;
+}
+.reight-main h2 {
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 25px;
+  color: #cccccc;
+  padding-bottom: 23px;
+}
+
+.reight-main button {
+  border: none;
+  border-radius: 40px;
+  padding: 20px 64px 19px 63px;
+  background-color: #ffffff;
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.77px;
+  color: #171717;
+  cursor: pointer;
+}

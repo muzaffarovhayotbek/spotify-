@@ -1,0 +1,128 @@
+.like {
+  background-color: #604ec1;
+}
+.like__container {
+  padding-top: 20px;
+  padding-left: 41px;
+  padding-right: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.icons img:hover {
+  transform: scale(1.1);
+}
+.like-btn button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: none;
+  border-radius: 40px;
+  padding: 3px 12px;
+  gap: 11px;
+  background-color: #000000cc;
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.77px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.like-hero {
+  padding-top: 28px;
+}
+
+.like-hero__container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.like-left img {
+  width: 297px;
+  cursor: pointer;
+}
+.left-reight {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.left-reight h3 {
+  font-family: 'Circular Std';
+  font-size: 122px;
+  font-weight: 900;
+  line-height: 154.33px;
+  color: #ffffff;
+}
+.left-reight h6 {
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  color: #ffffff;
+}
+
+.left-reight h4 {
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  color: white;
+}
+
+.like-main {
+  background-color: #020617;
+  padding-top: 31px;
+  padding-bottom: 30px;
+}
+.like-main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like-main-header {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.like-main-select {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.select {
+  background-color: #999999;
+  padding: 3px 42px 3px 3px;
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 22.77px;
+  color: black;
+}
+.like-title {
+  padding-top: 30px;
+  padding-bottom: 22px;
+  background-color: #020617;
+}
+.like-title__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.like-title__container h2 {
+  font-family: 'Circular Std';
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 20.24px;
+  color: #b3b3b3;
+}
