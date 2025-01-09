@@ -23,7 +23,7 @@
 .left-one a,
 .left-search h2,
 .left-library h2,
-.left-playlist h2,
+.left-playlist a,
 .likeSong a {
   font-family: var(--font-family);
   font-size: 18px;
@@ -48,9 +48,8 @@
 .hr {
   width: 250px;
   border: 1px solid #282828;
-  margin: 0 auto; /* O'rtaga joylashtiradi */
+  margin: 0 auto;
 }
-
 
 .left-bar-list {
   display: flex;

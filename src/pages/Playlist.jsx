@@ -62,6 +62,7 @@ function Playlist() {
           <h2>DATE ADDED</h2>
           <img src={clock} alt="clock" width={28} />
         </div>
+        <div className="playlist-hr"></div>
       </div>
     </div>
   );

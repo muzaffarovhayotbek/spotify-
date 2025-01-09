@@ -49,7 +49,7 @@
   font-weight: 450;
   line-height: 22.77px;
   color: black;
-} 
+}
 .playlist-section {
   padding-top: 30px;
   padding-bottom: 22px;
@@ -64,4 +64,9 @@
   font-weight: 450;
   line-height: 20.24px;
   color: #b3b3b3;
+}
+
+.playlist-hr {
+  width: 100%;
+  border: 1px solid #666666;
 }

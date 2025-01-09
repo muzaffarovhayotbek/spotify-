@@ -24,7 +24,7 @@ function LeftSide() {
       </div>
       <div className="left-playlist">
         <img src={playlist} alt="playlist icon" />
-        <h2>Create Playlist</h2>
+        <NavLink to="/playlist">Create Playlist</NavLink>
       </div>
       <div className="likeSong">
         <img src={likeSong} alt="" />

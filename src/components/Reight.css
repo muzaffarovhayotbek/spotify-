@@ -1,39 +1,53 @@
-.right-header {
-  display: flex;
-  flex-direction: column;
-  color: white;
+.right {
+  padding-top: 29px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.right-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .right-icons {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 10px;
+}
+.right-head h2 {
+  font-family: 'Circular Std';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.3px;
+  color: #cccccc;
+}
+.title {
+  padding-top: 39px;
+  padding-bottom: 23px;
 }
 
-.right-header h2 {
-  font-family: 'Circular Std';
+.title p {
+  font-family: Circular Std;
   font-size: 18px;
   font-weight: 450;
   line-height: 24px;
   color: #cccccc;
 }
-.reight-main {
+
+.right-foot {
   padding-top: 21px;
 }
-.reight-main h2 {
+.right-foot h2 {
   font-family: 'Circular Std';
   font-size: 18px;
   font-weight: 450;
   line-height: 25px;
-  color: #cccccc;
-  padding-bottom: 23px;
 }
 
-.reight-main button {
+.right-foot button {
+  margin-top: 23px;
+  padding: 20px 64px 19px 63px;
   border: none;
   border-radius: 40px;
-  padding: 20px 64px 19px 63px;
   background-color: #ffffff;
   font-family: 'Circular Std';
   font-size: 18px;
@@ -41,4 +55,7 @@
   line-height: 22.77px;
   color: #171717;
   cursor: pointer;
+}
+.right-foot button:hover {
+  transform: scale(0.95);
 }
